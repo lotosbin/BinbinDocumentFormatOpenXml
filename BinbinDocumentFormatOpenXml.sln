@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{3692D11F-577F-49EC-A943-45D976E92860}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binbin.DocumentFormat.OpenXml", "Binbin.DocumentFormat.OpenXml\Binbin.DocumentFormat.OpenXml.csproj", "{8B3A23CB-BD2F-4D49-9182-B8F1ED2249CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject.Binbin.DocumentFormat.OpenXml", "UnitTestProject.Binbin.DocumentFormat.OpenXml\UnitTestProject.Binbin.DocumentFormat.OpenXml.csproj", "{CDF504CA-7DC1-48DE-B9FE-506FF295CD81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B3A23CB-BD2F-4D49-9182-B8F1ED2249CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3A23CB-BD2F-4D49-9182-B8F1ED2249CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3A23CB-BD2F-4D49-9182-B8F1ED2249CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3A23CB-BD2F-4D49-9182-B8F1ED2249CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF504CA-7DC1-48DE-B9FE-506FF295CD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF504CA-7DC1-48DE-B9FE-506FF295CD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF504CA-7DC1-48DE-B9FE-506FF295CD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF504CA-7DC1-48DE-B9FE-506FF295CD81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
